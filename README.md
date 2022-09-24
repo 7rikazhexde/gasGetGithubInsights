@@ -3,9 +3,9 @@ Google Apps Script (GAS) to get Traffic Data using Github API
 
 ## Scripts Folder
 * getGithubInsightsTrafficViews  
-  get views (Traffic / Visitor / views & unique visitors) information from GitHub Insights.
+  Get the **views (Traffic / Visitor / views & unique visitors)** information from GitHub Insights and add it to the spreadsheet you create for each public repository.
 * getGithubInsightsTrafficClones  
-  get Visitors (Traffic / Git clones / clone & unique cloners) information from GitHub Insights.
+  Get the **Visitors (Traffic / Git clones / clone & unique cloners)** information from GitHub Insights and add it to the spreadsheet you create for each public repository.
 
 ## Usage
 ### Note
@@ -34,6 +34,7 @@ Click [Generate new token] to issue a new token.
   * Browse, edit, create, and delete Google Spreadsheets
   * Connect to external services
   * Allow this application to run when you are not present
+* If you are using Japanese language settings, 「シート1」 will be displayed when creating a spreadsheet. This depends on the language setting, but if you do not need it, delete it manually.
 * Set project to periodic execution (If periodic execution is enabled.)
   * Set from "Edit" -> "Triggers for current project". set to retrieve once a day)
 
